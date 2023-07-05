@@ -1,0 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=MuseoModerno:wght@700&display=swap');
+:root {
+  --fuenteprincipal:'MuseoModerno', cursive;
+  --fuentesecundaria:'Asap', sans-serif;
+}
+
+
+body {
+  padding-left: 100px;
+  background-color: #edf7ff;
+}
+
+h1 {
+  font-family: var(--fuenteprincipal);
+  color: #0a2ff1;
+  font-size: 117px;
+  margin-bottom: 0;
+}
+
+.subtitulo{
+       font-family: var(--fuentesecundaria);
+       font-weight: 400;
+       font-size: 52px;
+       color: #0a2ff1;
+       margin-top: 0;
+       margin-bottom: 100px;
+
+}
+
+h3{
+       font-family: var(--fuenteprincipal);
+       font-weight: 700;
+       color: #0a2ff1;
+       font-size: 48px;
+
+       
+}
+
+article{
+       font-family: var(--fuenteprincipal);
+       color: #8a9af1;
+       font-size: 198.6px;
+       display: block;
+}
+
+
+p{
+       font-family: var(--fuentesecundaria);
+       font-weight: 400;
+       color: #04146c;
+       
+       font-size: 33.3px;
+}
+
+strong{
+       font-family: var(--fuentesecundaria);
+       font-weight: 700;
+}
+
+ul{
+       font-family: var(--fuentesecundaria);
+       font-weight: 700;
+       color: #04146c;
+       
+  padding: 1px;
+  padding-left: 22px;
+}
+
+li{
+       
+       
+       padding: 5px;
+}
